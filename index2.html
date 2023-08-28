@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>P0ST-GAMES</title>
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
+    <link rel="stylesheet" href="static/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
+
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="/home">P0ST-GAMES</a><button class="navbar-toggler"
+                type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/novo_listar">Listagem</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image: url('static/img/header-bg.jpg');">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"><span>SEJA BEM-VINDO AO</span></div>
+                <div class="intro-heading text-uppercase"><span>p0st-games</span></div><a
+                    class="btn btn-primary btn-xl text-uppercase" role="button" href="#index">insira seu jogo!!!</a>
+            </div>
+        </div>
+    </header>
+    <section id="contact" style="background-image: url('map-image.png');">
+        <div id="index" class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">‎ </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-uppercase section-heading">adicione seu jogo</h2>
+                        <h3 class="text-muted section-subheading">Preencha todas informações de forma correta.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <form id="Formulario" name="Form" onsubmit="return false;">
+                            
+                            <div class="row">
+                                <div class="col-md-6 col-lg-12">
+                                    <div class="form-group mb-3"><input class="form-control" type="text" name="titulo" required" id="titulo"
+                                            placeholder="Título " required style="transform: translate(0px);"><small
+                                            class="form-text text-danger flex-grow-1 lead"></small></div>
+                                    <div class="form-group mb-3"><small class="form-text text-danger lead"></small>
+                                    </div>
+                                    <div class="form-group mb-3"><small class="form-text text-danger lead"></small>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group mb-3"><input class="form-control" type="text" name="ano" id="validationDefault03" placeholder="Ano de Lançamento " required><small class="form-text text-danger flex-grow-1 lead"></small></div>
+                                    <div class="form-group mb-3"><small class="form-text text-danger lead"></small>
+                                    </div>
+
+                                    <div class="form-group mb-3"><input class="form-control" type="text" name="genero" id="genero"
+                                            placeholder="Gênero " required=""><small
+                                            class="form-text text-danger lead"></small></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group mb-3"><input class="form-control" type="text"
+                                            name="desenvolvedora" id="desenvolvedora" placeholder="Desenvolvedora " required=""><small
+                                            class="form-text text-danger flex-grow-1 lead"></small></div>
+                                    <div class="form-group mb-3"><small class="form-text text-danger lead"></small>
+                                    </div>
+                                    <div class="form-group mb-3"><input class="form-control" type="text"
+                                            name="distribuidora" id="distribuidora" placeholder="Distribuidora " required=""><small
+                                            class="form-text text-danger lead"></small></div>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="col-lg-12 text-center">
+                                    <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase"
+                                        id="botaoEnvia" type="submit">ENVIAR!</button>
+                                </div>
+
+                        </form>
+
+
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"><span class="copyright"> </span></div>
+                <div class="col-md-6">
+                    <ul class="list-inline quicklinks">
+                        <li class=""><a>© Trabalho feito por: Bárbara, Gabriel B, Helton, Matheus e Tiago. </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="portfolioModal1">
+
+    </div>
+    <script>
+        
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+
+
+
+            $(document).on("click", "#botaoEnvia", function () {
+
+                var rota = 'http://localhost:5000/incluir';
+                var vetor_dados = $("#Formulario").serializeArray();
+
+                var chave_valor = {};
+                for (var i = 0; i < vetor_dados.length; i++) {
+                    chave_valor[vetor_dados[i]['name']] = vetor_dados[i]['value'];
+                }
+
+                var dados_json = JSON.stringify(chave_valor);
+
+                var acao = $.ajax({
+                    url: rota,
+                    method: 'POST',
+                    dataType: 'json', // os dados são recebidos no formato json,
+                    contentType: 'application/json', // os dados serão enviados em json
+                    data: dados_json
+                });
+
+                // se a chamada der certo
+                acao.done(function (retorno) {
+                    try {
+                        if (retorno.resultado == "ok") {
+                            alert("Jogo cadastrado com sucesso!");
+                        } else {
+                            alert("Deu algum erro no backend: " + retorno.detalhes);
+                        }
+                    } catch (error) { // se algo der errado...
+                        alert("Erro ao tentar fazer o ajax: " + error +
+                            "\nResposta da ação: " + retorno);
+                    }
+                });
+
+                // se a chamada der erro
+                acao.fail(function (jqXHR, textStatus) {
+                    mensagem = encontrarErro(jqXHR, textStatus, rota);
+                    alert("Erro na chamada ajax: " + mensagem);
+                });
+            }); // fim click btIncluir
+
+            function carregarCombo(combo_id) {
+                var acao = $.ajax({
+                    url: 'http://localhost:5000/listar',
+                    dataType: 'json', // os dados são recebidos no formato json
+                });
+                // se a chamada der certo
+                acao.done(function (retorno) {
+                    try {
+                        if (retorno.resultado == "ok") {
+                            montar_combo(combo_id, retorno.detalhes);
+                        } else {
+                            alert("Deu algum erro no backend: " + retorno.detalhes);
+                        }
+                    } catch (error) { // se algo der errado...
+                        alert("Erro ao tentar fazer o ajax: " + error +
+                            "\nResposta da ação: " + retorno.detalhes);
+                    }
+                });
+
+                // se a chamada der erro
+                acao.fail(function (jqXHR, textStatus) {
+                    mensagem = encontrarErro(jqXHR, textStatus, rota);
+                    alert("Erro na chamada ajax: " + mensagem);
+                });
+            }
+
+            // https://stackoverflow.com/questions/6792878/jquery-ajax-error-function 
+            function encontrarErro(jqXHR, textStatus, rota) {
+                var msg = '';
+                if (jqXHR.status === 0) {
+                    msg = 'Não foi possível conectar, ' +
+                        'verifique se o endereço do backend está certo' +
+                        ' e se o backend está rodando.';
+                } else if (jqXHR.status == 404) {
+                    msg = 'A URL informada não foi encontrada no ' +
+                        'servidor [erro 404]: ' + rota;
+                } else if (jqXHR.status == 500) {
+                    msg = 'Erro interno do servidor [erro 500], ' +
+                        'verifique nos logs do servidor';
+                } else if (textStatus === 'parsererror') {
+                    msg = 'Falha ao decodificar o resultado json';
+                } else if (textStatus === 'timeout') {
+                    msg = 'Tempo excessivo de conexão, estourou o limite (timeout)';
+                } else if (textStatus === 'abort') {
+                    msg = 'Requisição abortada (abort)';
+                } else {
+                    msg = 'Erro desconhecido: ' + jqXHR.responseText;
+                }
+                return msg;
+            }
+
+        });
+
+
+    </script>
+
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/agency.js"></script>
+
+
+</body>
+
+</html>
