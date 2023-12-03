@@ -9,6 +9,6 @@ Este é um breve README para o meu projeto que utiliza as seguintes tecnologias:
 
 ## Como Iniciar
 
-1. Clone este repositório: `git clone https://seu-repositorio.git`
-2. Instale as dependências do projeto: `pip install -r requirements.txt`
-3. Execute o projeto: `python main.py`
+1. Clone este repositório: `git clone https://451145.git`
+2. Instale as dependências do projeto: `pip install -r Flask` `pip install -r python´
+3. Execute o projeto: `python3 queda_de_braco.py`
